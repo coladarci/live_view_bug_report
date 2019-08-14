@@ -1,0 +1,66 @@
+<footer id="footer" class="section-container">
+  <div class="row">
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <img class="mb-2" src="/images/peek-logo-footer.png" style="height: 3rem;" />
+      <div>
+        <%= gettext "Peek is a one-stop shop to discover and book amazing experiences for both travelers and locals" %>
+      </div>
+      <div class="mt-2 mb-2">
+        <a href="https://instagram.com/peek/" target="_blank">
+          <img src="/images/homepage/icons/social-media-icons/instagram.svg" />
+        </a>
+        <a target="_blank" href="https://www.facebook.com/peek">
+          <img src="/images/homepage/icons/social-media-icons/facebook.svg" />
+        </a>
+        <a target="_blank" href="https://twitter.com/peek">
+          <img src="/images/homepage/icons/social-media-icons/twitter.svg" />
+        </a>
+        <a target="_blank" href="https://www.pinterest.com/peektravel/">
+          <img src="/images/homepage/icons/social-media-icons/pintrest.svg" />
+        </a>
+      </div>
+
+      <div class="footer-copyright">&copy; <%= gettext "2019 Peek Travel Inc. - All rights reserved" %></div>
+    </div>
+
+    <hr class="footer-line-seperator" />
+
+    <div class="col-lg-3 col-md-12 col-sm-12">
+      <h3>Discover</h3>
+      <div><a class="default-link" href="/pro?utm_source=peek&utm_medium=internal&utm_campaign=peekcomreferral">
+          <%= gettext "Peek Professional for Tour Operators" %>
+        </a></div>
+      <div><a class="default-link" href="/pro/work-at-peek"><%= gettext "Jobs" %></a></div>
+      <div><a class="default-link" href="/about"><%= gettext "About Peek" %></a></div>
+      <div><a class="default-link"
+          href="https://drive.google.com/drive/folders/1OsZiWT8S7rfY3Z2LKVjv5oRnsbMxEyAQ"><%= gettext "Press Kit" %></a>
+      </div>
+    </div>
+
+    <hr class="footer-line-seperator" />
+
+    <div class="col-lg-2 col-md-12 col-sm-12">
+      <h3><%= gettext "Company" %></h3>
+      <div><a class="default-link" href="/privacy"><%= gettext "Privay Policy" %></a></div>
+      <div><a class="default-link" href="/terms"><%= gettext "Terms Of Use" %></a></div>
+      <div>
+        <%= gettext "Image Attribution" %>
+        <a class="default-link" href="/attribution">1</a>
+        <a class="default-link" href="/attribution_2">2</a>
+      </div>
+      <a class="default-link" href="/sitemap/categories">Sitemap</a>
+    </div>
+
+    <hr class="footer-line-seperator" />
+
+    <div class="col-lg-3 col-md-12 col-sm-12">
+      <h3><%= gettext "Customer Support" %></h3>
+      <div><%= gettext "5:30am to 9pm Pacific Time" %></div>
+      <a class="default-link" href="tel:855-733-5872">855-733-5872</a>
+      <div>
+        <a class="default-link" href="mailto:experiences@peek.com">experiences@peek.com</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>

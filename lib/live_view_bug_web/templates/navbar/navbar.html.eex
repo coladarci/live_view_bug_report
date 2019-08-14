@@ -1,0 +1,7 @@
+  <div id="navbar">
+    <a href="/"><img class="logo" class="d-block" src="/images/peek-logo.png" /></a>
+    <a class="position-absolute for-operators-link upcase-text"
+      href="https://www.peek.com/pro?utm_source=peek&utm_medium=internal&utm_campaign=peekcomreferral" target="_blank">
+      <%= gettext "For Operators" %>
+    </a>
+  </div>

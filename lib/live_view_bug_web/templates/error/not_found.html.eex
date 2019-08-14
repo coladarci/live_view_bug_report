@@ -1,0 +1,6 @@
+<div class="error-map-wrapper">
+  <img alt="Pin" src="https://dxvgidz67iahm.cloudfront.net/assets/static/pin-c47b0aa1d268bdd46373be91c6bb8309.png">
+  <h1><%= gettext "Whoops. Page not found. We might have lost you somewhere." %></h1>
+
+  <img alt="Map" src="https://dxvgidz67iahm.cloudfront.net/assets/static/map-95bb3a0c70709604e00431dfa9f566e7.png" />
+</div>
